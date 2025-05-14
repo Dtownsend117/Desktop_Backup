@@ -6,3 +6,5 @@ You can set the folder that everything will copy to, while also setting specific
 Set up the folders and files you do not want copied in the "Exclusions" section near the bottom of the code. 
 Example: I don't want file 1, file 2, and file 3 to be copied
 exclusions = ["file 1", "file 2", "file 3"]
+
+This will also overwrite all files in the destination to prevent "could not copy" errors
